@@ -1,0 +1,5 @@
+# Every change to registry.json is a new-vehicle/edition approval action
+# in this project's governance model -- not routine maintenance. Protects
+# the whole repo, not a scoped subset. Should become a real org-quorum
+# team requirement once one exists; currently the sole author.
+* @TheBlayde
