@@ -1,3 +1,12 @@
 {
-  "vehicles": []
+  "vehicles": [
+    {
+      "vehicle_slug": "suzuki-sv650-1999",
+      "edition_id": "OEM",
+      "vehicle_display_name": "suzuki-sv650-1999",
+      "repo_url": "https://github.com/BlaydeManual/suzuki-sv650-1999",
+      "source_pdf_sha256": "90b33583f420ef95c0ef65d479b9ea5979d795420c88679d414f3fdd908077d1",
+      "status": "approved"
+    }
+  ]
 }
