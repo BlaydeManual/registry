@@ -2,7 +2,7 @@
   "vehicles": [
     {
       "vehicle_slug": "suzuki-sv650-1999",
-      "edition_id": "OEM",
+      "edition_id": "oem",
       "vehicle_display_name": "suzuki-sv650-1999",
       "repo_url": "https://github.com/BlaydeManual/suzuki-sv650-1999",
       "source_pdf_sha256": "781bc9534eef2b4cd41b489d360eec23b6b458540c98febc6f08b0d460b6464a",
@@ -11,7 +11,7 @@
     },
     {
       "vehicle_slug": "blayde-manual-2026",
-      "edition_id": "OEM",
+      "edition_id": "oem",
       "vehicle_display_name": "blayde-manual-2026",
       "repo_url": "https://github.com/BlaydeManual/blayde-manual-2026",
       "source_pdf_sha256": "1fad3bbb4ddf4c83914d066cee0a4372727716dc5033519c3ddf6454a4e81b4f",
