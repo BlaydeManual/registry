@@ -43,3 +43,9 @@ consumer (the indexer's confirm-vehicle step, `registry-browse.js`'s
 filter, mosaic template selection) reads this file directly rather than
 hardcoding its own copy, so adding a type to an existing category is a
 one-line data change here, not a code change anywhere else.
+
+Each category's `types` array holds `{id, label}` objects, not bare
+strings -- `id` is the value stored on a `registry.json` entry's
+`manual_type`, `label` is what's shown in dropdowns and filters. Kept
+separate because a handful of ids (`atv-utv`, `ham-radio`) don't read
+well when mechanically title-cased.

@@ -3,32 +3,68 @@
     {
       "id": "garage",
       "label": "Garage",
-      "types": ["motorcycle", "car", "light-truck", "atv-utv", "other"]
+      "types": [
+        {"id": "motorcycle", "label": "Motorcycle"},
+        {"id": "car", "label": "Car"},
+        {"id": "light-truck", "label": "Light truck"},
+        {"id": "atv-utv", "label": "ATV/UTV"},
+        {"id": "other", "label": "Other"}
+      ]
     },
     {
       "id": "marina",
       "label": "Marina",
-      "types": ["outboard-boat", "inboard-boat", "personal-watercraft", "marine-engine", "other"]
+      "types": [
+        {"id": "outboard-boat", "label": "Outboard boat"},
+        {"id": "inboard-boat", "label": "Inboard boat"},
+        {"id": "personal-watercraft", "label": "Personal watercraft"},
+        {"id": "marine-engine", "label": "Marine engine"},
+        {"id": "other", "label": "Other"}
+      ]
     },
     {
       "id": "hangar",
       "label": "Hangar",
-      "types": ["fixed-wing", "rotorcraft", "avionics", "ground-support", "other"]
+      "types": [
+        {"id": "fixed-wing", "label": "Fixed-wing"},
+        {"id": "rotorcraft", "label": "Rotorcraft"},
+        {"id": "avionics", "label": "Avionics"},
+        {"id": "ground-support", "label": "Ground support"},
+        {"id": "other", "label": "Other"}
+      ]
     },
     {
       "id": "farm",
       "label": "Farm",
-      "types": ["tractor", "combine", "heavy-equipment", "generator", "other"]
+      "types": [
+        {"id": "tractor", "label": "Tractor"},
+        {"id": "combine", "label": "Combine"},
+        {"id": "heavy-equipment", "label": "Heavy equipment"},
+        {"id": "generator", "label": "Generator"},
+        {"id": "other", "label": "Other"}
+      ]
     },
     {
       "id": "home",
       "label": "Home",
-      "types": ["appliance", "hvac", "power-tool", "furniture", "other"]
+      "types": [
+        {"id": "appliance", "label": "Appliance"},
+        {"id": "hvac", "label": "HVAC"},
+        {"id": "power-tool", "label": "Power tool"},
+        {"id": "furniture", "label": "Furniture"},
+        {"id": "other", "label": "Other"}
+      ]
     },
     {
       "id": "hobby",
       "label": "Hobby",
-      "types": ["sewing-machine", "camera", "instrument", "ham-radio", "other"]
+      "types": [
+        {"id": "sewing-machine", "label": "Sewing machine"},
+        {"id": "camera", "label": "Camera"},
+        {"id": "instrument", "label": "Instrument"},
+        {"id": "ham-radio", "label": "Ham radio"},
+        {"id": "other", "label": "Other"}
+      ]
     }
   ]
 }
