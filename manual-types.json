@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "id": "garage",
+      "label": "Garage",
+      "types": ["motorcycle", "car", "light-truck", "atv-utv", "other"]
+    },
+    {
+      "id": "marina",
+      "label": "Marina",
+      "types": ["outboard-boat", "inboard-boat", "personal-watercraft", "marine-engine", "other"]
+    },
+    {
+      "id": "hangar",
+      "label": "Hangar",
+      "types": ["fixed-wing", "rotorcraft", "avionics", "ground-support", "other"]
+    },
+    {
+      "id": "farm",
+      "label": "Farm",
+      "types": ["tractor", "combine", "heavy-equipment", "generator", "other"]
+    },
+    {
+      "id": "home",
+      "label": "Home",
+      "types": ["appliance", "hvac", "power-tool", "furniture", "other"]
+    },
+    {
+      "id": "hobby",
+      "label": "Hobby",
+      "types": ["sewing-machine", "camera", "instrument", "ham-radio", "other"]
+    }
+  ]
+}
