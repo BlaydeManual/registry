@@ -21,6 +21,17 @@
       "vehicle_class": "motorcycle",
       "category": "garage",
       "manual_type": "motorcycle"
+    },
+    {
+      "vehicle_slug": "royal-lexon-s20",
+      "edition_id": "oem",
+      "vehicle_display_name": "royal-lexon-s20",
+      "vehicle_class": null,
+      "category": "home",
+      "manual_type": "appliance",
+      "repo_url": "https://github.com/BlaydeManual/royal-lexon-s20",
+      "source_pdf_sha256": "fa457bd2aacdf11ec6c55cf25e4cdcd70796871fec84a10d8c77526e97f97ff1",
+      "status": "approved"
     }
   ]
 }
