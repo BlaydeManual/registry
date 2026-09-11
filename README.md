@@ -16,21 +16,26 @@ vehicle's real org approval, not a seed. See the main
 {
   "vehicles": [
     {
-      "vehicle_slug": "make-model-year-range",
-      "edition_id": "OEM",
-      "vehicle_display_name": "Make Model (Year-Range)",
-      "source_identifier": "where the submitter found this manual",
+      "vehicle_slug": "make-model-year",
+      "edition_id": "oem",
+      "vehicle_display_name": "make-model-year",
       "source_pdf_sha256": "the fingerprint patchers/indexers match against",
       "repo_url": "https://github.com/BlaydeManual/<vehicle-repo>",
       "status": "approved",
-      "submitted_by": "github-username",
-      "vehicle_class": "deprecated, superseded by category + manual_type below -- kept for now so existing consumers (registry-browse.js's type filter) don't break; removed once they're migrated",
+      "vehicle_class": "deprecated, superseded by category + manual_type below -- kept for now so existing consumers (registry-browse.js's type filter) don't break; removed once they're migrated, or null",
       "category": "one of manual-types.json's category ids (garage/marina/hangar/farm/home/hobby)",
       "manual_type": "one of that category's own type ids in manual-types.json -- always includes an \"other\" fallback, never free text"
     }
   ]
 }
 ```
+
+`vehicle_slug` is `make-model-year` (a single release year, not a range --
+a manual's cover states when its coverage begins but never definitively
+when it ends). No `source_identifier` or `submitted_by` fields exist on
+a real entry today; provenance and who submitted a vehicle are tracked
+elsewhere (the notarization log and the PR/approval history), not
+duplicated onto the registry entry itself.
 
 ## Manual types
 
